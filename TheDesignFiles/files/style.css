@@ -1,0 +1,70 @@
+/* Styles */
+:root {
+    --bg-clr: hsl(217, 54%, 11%);
+    --card-bg-clr: hsl(216, 50%, 16%);
+    --ETH-clr: hsl(178, 100%, 50%);
+    --line-clr: hsl(215, 32%, 27%);
+    --text-clr: hsl(215, 51%, 70%);
+    --white-clr: hsl(0, 0%, 100%);
+    --font-sz-para: 18px;
+    --font-face: 'Outfit', sans-serif;
+    --wt-300: 300;
+    --wt-400: 400;
+    --wt-700: 700;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-clr);
+    /* position: relative; */
+    display: grid;
+    /* place-content: center; */
+    /* margin:auto; */
+    align-content: center;
+    justify-items: center;
+    
+
+}
+
+
+
+
+
+
+
+
+.container {
+    /* border: 2px solid; */
+    display: grid;
+    place-content: center;
+    /* vertical-align: top; */
+    max-width: 375px;
+    height: 100%;
+    /* margin: auto; */
+    /* background-image: url(); */
+    background-color: var(--card-bg-clr);
+    /* box-sizing: border-box; */
+    /* padding: 15px; */
+    /* margin: 20px; */
+    border-radius: 15px;
+}
+
+.image {
+    padding: 0;
+    /* margin: 10px; */
+    width: 350px;
+}
+#cube {
+    width: 350px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    /* align-items: center; */
+    margin: 0;
+    padding: 0;
+}
+
